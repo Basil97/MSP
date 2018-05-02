@@ -1,11 +1,98 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:padding="20dp">
 
-</LinearLayout>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:id="@+id/Red"
+			android:src="@drawable/red"
+			android:onClick="onImg"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:src="@drawable/chuck"
+			android:id="@+id/Chuck"
+			android:onClick="onImg"
+			android:layout_alignParentRight="true"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:src="@drawable/bomb"
+			android:layout_below="@id/Red"
+			android:id="@+id/Bomb"
+			android:onClick="onImg"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:src="@drawable/matilda"
+			android:layout_below="@id/Chuck"
+			android:id="@+id/Matilda"
+			android:layout_alignParentRight="true"
+			android:onClick="onImg"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:src="@drawable/leonard_pigs"
+			android:layout_below="@id/Bomb"
+			android:id="@+id/LeonardPigs"
+			android:onClick="onImg"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:src="@drawable/mighty_eagle"
+			android:layout_below="@id/Matilda"
+			android:layout_alignParentRight="true"
+			android:id="@+id/MightyEagle"
+			android:onClick="onImg"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:src="@drawable/stella"
+			android:layout_below="@id/MightyEagle"
+			android:layout_alignParentRight="true"
+			android:id="@+id/Stella"
+			android:onClick="onImg"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:src="@drawable/terence"
+			android:layout_below="@id/LeonardPigs"
+			android:id="@+id/Terence"
+			android:onClick="onImg"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:src="@drawable/hatchlings"
+			android:layout_below="@id/Stella"
+			android:layout_alignParentRight="true"
+			android:onClick="onImg"
+			android:id="@+id/Hatchlings"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="150dp"
+			android:src="@drawable/blues"
+			android:layout_below="@id/Terence"
+			android:onClick="onImg"
+			android:id="@+id/Blues"/>
+
+	</RelativeLayout>
+
+</ScrollView>
+

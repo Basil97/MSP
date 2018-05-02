@@ -2,6 +2,16 @@
 <resources>
 
     <string name="app_name">AngryBirds</string>
-    <string name="hello_world">Hello world!</string>
-
+	
+    <string name="Red">On an island occupied by the cheeriest birds imaginable, Red is a bit of an outcast. His cynical outlook has kept him at odds with the other birds, but a bit of cynicism might be just what they need.</string>
+	<string name="Chuck">Chuck is constantly running at 100 mph, and that includes his mouth as well. His impulsive nature and endless commentary gets him into trouble often. Luckily, he’s fast enough to get out of trouble quickly.</string>
+	<string name="Bomb">Generally speaking, Bomb is the chillest bird you will ever meet. However, get him worked up and he has a tendency to go off – explosively speaking. This can have its advantages, but Bomb struggles to control his power.</string>
+	<string name="Matilda">Matilda is the leader of the anger management class on Bird Island. She is a former angry bird herself, but has since learned the error of her ways. Now she makes it her business to keep the good vibes going at all times.</string>
+	<string name="Leonard">These green guys have a lot going for them. They like to party, their dance moves are always on point, they can build things. Absolutely nothing suspicious here!</string>
+	<string name="MightyEagle">Mighty Eagle is a legend of mythical proportions in the bird community. The birds grew up with songs and tales about his amazing adventures and heroism. Because of his giant majestic wings, he is the only bird who has ever managed to fly.</string>
+	<string name="Terence">Terence is, in fact, quite large. Little else is known about the big guy due to the fact that he speaks only in low-pitched growls.</string>
+	<string name="Stella">Stella is eternally optimistic and bright. Thanks to her inquisitive nature, she has become one of the leading experts on Bird Island.</string>
+	<string name="TheBlues">Say hello to Jim, Jake and Jay: AKA the Blues! These fun-loving and mischievous little birds are identical triplets with identical personalities.</string>
+	<string name="Hatchlings">These adorable youngins are the future of Bird Island. Within their cute and fluffy exterior is unlimited potential.</string>
+	
 </resources>
