@@ -16,9 +16,10 @@ public class MainActivity extends Activity
 	
 	String Name, Slog, Descr;
 	int Id;
+	Intent intent;
 	public void onImg(View view) 
 	{
-		Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+		intent = new Intent(MainActivity.this, ProfileActivity.class);
 		
 		switch(view.getId()) {
 			case R.id.Red:
