@@ -22,6 +22,7 @@ public class MainActivity extends Activity
 		resulttxt = (TextView) findViewById(R.id.resulttxt);
 
 		Button btnremove = (Button) findViewById(R.id.btnremove);
+		
 		btnremove.setOnLongClickListener(new View.OnLongClickListener() {
 
 				@Override
